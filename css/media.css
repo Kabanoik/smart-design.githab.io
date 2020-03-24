@@ -155,8 +155,7 @@
 	.popup{
 		margin-top: 5%;
 		width:90%;
-		min-height: 50vh;
-		max-height: 70vh;
+		max-height: 68vh;
 	}
 	.popup .close {
 		display: flex;
