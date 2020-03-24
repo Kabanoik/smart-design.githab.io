@@ -80,7 +80,7 @@
 }
 @media (max-width: 500px){
 	.swiper-container{
-		height:92vh;
+		height:95vh;
 	}
 	.LogoMobile{
 		display: flex;
