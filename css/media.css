@@ -357,8 +357,9 @@
 		font-size: 3vw;
 	}
 	.ggoo{
-		margin-top: 5%;
-		top:0;
+		top:70%;
+		position: absolute;
+		left:10%;
 		
 	}
 	.owl-carousel img{
