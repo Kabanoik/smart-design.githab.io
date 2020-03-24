@@ -1,0 +1,378 @@
+@media (min-height: 1023px){
+	.bluewrap{
+		max-height: 50vh;
+	}
+	.visualwrap{
+		max-height: 50vh;
+	}
+	.content4{
+		max-height: 80vh;
+	}
+	.dproect3{
+		margin-top:10%;
+	}
+	
+	.lixtik, .lixtik2, .lixtik3, .lixtik4, .lixtik5{
+		max-height: 23vh;
+	}
+	.lixtik4, .lixtik5{
+		margin: 0 7%;
+	}
+
+	.ggoo{
+		width:90%;
+	}
+}
+@media (min-height: 901px){
+	.blueprints, .visualization{
+		max-height: 50vh;
+	}
+	}
+
+@media (max-width: 770px){
+	
+	.content h1{
+		font-size: 3vw;
+	}
+	.content p {
+		font-size: 2vw;
+	}
+	.con-wrap{
+		flex-direction: column;
+	}
+	.contenDescr{
+		width:40%;
+	}
+	.contenDescr p {
+		font-size: 1.5vw;
+	}
+	.button a{
+		font-size: 2vw;
+	}
+	.buttons {
+		margin:10% 10%;
+	}
+	.bluewrap{
+		max-height: 30vh;
+	}
+	.visualwrap{
+		max-height: 30vh;
+	}
+	.content4{
+		height:70vh ;
+	}
+	.lixtik, .lixtik2, .lixtik3, .lixtik4, .lixtik5{
+			width: 25%;
+	}
+	.lixtik p, .lixtik2 p, .lixtik3 p, .lixtik4 p, .lixtik5 p{
+		font-size: 1.7vw;
+	}
+	.col-sm-4{
+		max-height: 25%;
+	}
+	.owl-carousel img{
+		min-height: 20vh;
+	}
+	.ggoo{
+		top:0;
+	}
+
+}
+@media (max-width: 500px){
+	.swiper-container{
+		height:90vh;
+	}
+	.LogoMobile{
+		display: flex;
+		flex-direction: row-reverse;
+		position: absolute;
+		z-index: 9;
+		width: 99.8%;
+
+	}
+	.LogoMobile a{
+		font-family: 'Oswald', sans-serif;
+		text-decoration: none;
+		color:#394146;
+		font-size: 7vw;
+		background-color: #FFE831;
+		padding: 1% 2%;
+		margin-top: 1%;
+		margin-right: 1%;
+		border-radius: 3px;
+	
+	}
+	.dws-main li{
+		display: none;
+	}
+	.pushy-content{
+	display: block;
+	}
+
+	.menu-btn{
+	display: block;
+	}
+	.logoandAll{
+		display: none;
+	}
+	.maincall{
+		top: 10%;
+	}
+	.content{
+		top:30%;
+		left:20%;
+		max-width: 60%;
+	}
+	.content h1{
+		font-size: 6vw;
+	}
+	.content p{
+		font-size: 4vw;
+		padding: 3%;
+	}
+	.contenDescr {
+		width: 50%;
+		margin-top:25%;
+	}
+	
+	.contenDescr h1{
+		padding:3%;
+		font-size: 6vw;
+	}
+	.contenDescr p{
+		font-size: 3vw;
+		padding: 10px;
+	}
+	.moreInf a{
+		font-size: 3vw;
+	}
+	.moreInf:hover{
+		filter: none;
+	}
+	.button{
+		font-size: 3.5vw;
+	}
+	.popup{
+		margin-top: 5%;
+		width:90%;
+	}
+	.popup .close {
+		display: flex;
+		top:103%;
+		right:0;
+		left: 0;
+		margin:0 auto;
+		color:#000;
+		background: #fff;
+		height: 36px;
+		width: 36px;
+		border-radius: 50%;
+		justify-content: center;
+		align-items: center;
+	}
+	.popup a{
+			
+	}
+	.popup h2{
+		font-size: 5.3vw;
+	}
+	
+	.contentss h3{
+		font-size: 3.5vw;
+	}
+	.contentss p{
+		font-size: 3vw;
+	}
+	.dproect h1{
+		margin-top: 10%;
+		font-size: 6vw;
+	}
+	.content3 {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	
+	.bluewrap{
+		width: 80%;
+		height: 80vh;
+		margin:5% 0;
+	}
+	
+	.visualwrap{
+		width: 80%;
+		height: 80vh;
+		margin:5% 0;
+	}
+	.visualwrap h1, .bluewrap h1{
+		font-size: 4vw;
+	}
+	.content4{
+		height: 90vh;
+	}
+	.dproect2 p{
+		font-size: 3vw;
+	}
+	.dproect2 h1{
+		font-size: 6vw;
+		
+	}
+	.mainwrap{
+		flex-direction: column;
+	}
+	.textMain{
+		width: auto;
+	}
+	.textMain h1{
+		border-left: none;
+		border-top:3px solid #FFE831;
+		font-size: 4vw;
+		margin-bottom: 5%;
+	}
+	.textMain2{
+		width: 100%;
+		margin-top:5%;
+	}
+	.tmtx p{
+		font-size: 4vw;
+	}
+
+	.tmtx img{
+		margin-right: 2%;
+		width: 30px;
+		height: 30px;
+	}
+	.dproect3 h1{
+		margin-top: 5%;
+		font-size: 6vw;
+	}
+	.lixtik, .lixtik2{
+		width:40%;
+		height: 27vh;
+	} 
+	.lixtik4, .lixtik5{
+		width:40%;
+		height: 27vh;
+		margin:0 4%;
+	}
+	.lixtik p, .lixtik2 p, .lixtik4 p, .lixtik5 p{
+		font-size: 3vw;
+	}
+
+	.lixtik3 {
+		display: none;
+	}
+	.lixtik3-mobile{
+		display: flex;
+		background-color: hsla(208, 12%, 28%, 0.7);
+		width: 40%;
+		height: 27vh;
+		margin:0 auto;
+		margin-bottom: 3%;
+		padding: 1%;
+		flex-direction: column;
+		justify-content: center;
+		border-radius: 4px;
+		border:1px solid #FFF;
+		transform: translateZ(0);
+
+	}
+	.lixtik3-mobile p{
+		display: flex;
+		justify-content: center;
+		height: 15vh;
+		font-family: 'Open Sans', sans-serif;
+		text-shadow:1px 1px 2px black, 0 0 1em #404951;
+		font-weight: bold;
+		border-radius: 3px;
+		color:#FFFFFF;
+		padding: 3%;
+		font-size: 90%;
+		align-items: center;
+		text-align: center;
+	}
+
+	
+	.lixtik3-mobile:hover {
+	  animation-name:lixtik;
+	  animation-duration: 1s;
+	  animation-timing-function: ease-in-out;
+	  animation-iteration-count: 1;
+	}
+
+	@keyframes lixtik {
+	  16.65% {
+	    transform: translateY(8px);
+	  }
+	  33.3% {
+	    transform: translateY(-6px);
+	  }
+	  49.95% {
+	    transform: translateY(4px);
+	  }
+	  66.6% {
+	    transform: translateY(-2px);
+	  }
+	  83.25% {
+	    transform: translateY(1px);
+	  }
+	  100% {
+	    transform: translateY(0);
+	  }
+	}
+
+	.row{
+		flex-direction: column;
+	}
+	.maincall{
+		width:auto;
+		text-align: center;
+		top:0;
+		left:0;
+		margin-top:18%;
+	}
+	.maincall h1{
+		font-size: 6vw;
+	}
+	.callback h1{
+		padding:0 2%;
+	}
+	.col-sm-4{
+		width: 60%;
+		margin:5% auto;
+		padding:3%;
+		top:0;
+		left:0;
+	}
+	.form-control{
+		font-size: 4vw;
+		border-bottom:1px solid #fff;
+	}
+	input::-webkit-input-placeholder{
+		color: #111; 
+	}
+	.pulse{
+		font-size: 3vw;
+	}
+	.ggoo{
+		margin-top: 5%;
+		top:0;
+		
+	}
+	.owl-carousel img{
+		height: 20vh;
+	}
+	.phonefooter{
+		width:30%;
+		left:60%;
+	}
+	.phonefooter p{
+		font-size: 3vw;
+	}
+	.phonefooter a{
+		font-size: 3vw;
+	}
+
+
+}
