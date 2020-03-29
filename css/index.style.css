@@ -6,6 +6,9 @@ body {
  	margin: 0;
  	padding: 0;
 }
+::selection{
+	background:rgba(110, 110, 110, 0.87);
+} 
 footer {
 	bottom: 0;
 	position: relative;
@@ -31,8 +34,7 @@ nav {
 	position: absolute;
 	width: 100%;
 	height: auto;
-	z-index: 3;
-	
+	z-index: 3;	
 }
 
 .btn-2:after,
@@ -124,9 +126,9 @@ nav {
 	padding-left: 20px;
 	color:#394146;
 	font-size: 2.3vw;
-	-webkit-transition-duration: .5s;
-	-o-transition-duration: .5s;
-	transition-duration: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
 }
 
 .phoneColor a:hover{
@@ -134,11 +136,15 @@ nav {
 
 }
 .phoneColor a{
-	color: #232325;
-	font-size: 1.2vw;
+	font-size: 1.3vw;
+	font-weight: 700;
 	text-decoration: none;
-	line-height: 0.5;
-
+	flex-wrap: nowrap;
+	color: #EBEBEB;
+	text-shadow:1px 1px 3px black, 0 0 1em #404951;
+}
+.phoneSecond{
+	padding-top:2%;
 }
 .phoneColor{
 	display: flex;
@@ -146,9 +152,23 @@ nav {
 	flex-direction:column;
 	position: relative;
 	padding:2%;
-	background-color: rgba(255, 255, 255, 0.8);
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+}
+.viberPhone{
+	margin:auto 0;
+	position: relative;
+	left:15%;
+	
+}
+.viberPhone a{
+	text-decoration: none;
+}
+.viberPhone img{
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 50%;
 }
 
 
@@ -159,7 +179,7 @@ nav {
 	align-items: center;
 	flex-wrap: wrap;
 	margin:2% auto;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 1);
 	padding:10px 0 0 0;
 	border-radius: 5px;
 	width: 40%;
@@ -175,7 +195,6 @@ nav {
 	bottom: 0;
 	right: 0;
 	left: 0;
-
 	filter: blur(4px);
 
 } 
@@ -206,6 +225,32 @@ nav {
 	width: 100%;
 	height: auto;
 }
+.col-sm{
+  display: flex;
+  position: relative;
+  padding-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  z-index: 2;
+}
+.popup2 .col-sm{
+  display: flex;
+  position:relative;
+  width: 100%;
+  height: auto;
+  background: ;
+  border-radius: 2px;
+  z-index: 2;
+}
+.form-group4{
+  margin:8% 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width:100%;
+
+}
 
 .popup2 .col-sm-4{
   display: flex;
@@ -216,11 +261,13 @@ nav {
   background: #fff;
   border-radius: 2px;
   z-index: 2;
+
 }
 .popup2 .col-sm-4:before{} 
 
 .popup2 .form-group{
   margin:10%;
+  width:;
   display: flex;
   position: relative;
   justify-content: center;
@@ -233,7 +280,7 @@ nav {
 }
 .popup2 .form-control{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4vw;
   color:#080808;
   width:100%;
   background:none;
@@ -241,7 +288,7 @@ nav {
   line-height:2;
   text-decoration:none;
   border:none;
-  border-bottom:3px solid #3C435F;
+  border-bottom:2px solid #3C435F;
   outline:none;
 
 }
@@ -253,10 +300,9 @@ nav {
 
 
 .buttonn:hover{
-	background-color: #222320;
-}
-.buttonn a:hover{
-  color: #fff;
+	background-color: #FFE831;
+	transition: .3s ease-in-out;
+
 }
 .buttonn {
 	display: flex;
@@ -264,16 +310,15 @@ nav {
 	position:relative;
 	height: 25px;
 	margin-top:2%;
+	margin-left:6%;
 	padding: 3px 5px;
 	background: rgba(252, 253, 253, 1);
-	border-radius:15px;
+	border-radius:4px;
 }
 .buttonn a{
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
-	font-weight: bold;
-	text-transform: uppercase;
-	color:black;
+	color:#394146;
 	font-size: 1.4vw;
 	padding: 5px 10px;
 }
@@ -283,7 +328,7 @@ nav {
 .dws-menu {
 	display: flex;
 	flex-direction: column;
-		margin-right: 10%;
+	margin-right: 10%;
 	position: relative;
 }
 .phoneform{
@@ -309,9 +354,9 @@ nav {
 	position: relative;
 	display: block;
 	color:#fff;
-	font-weight: 500;
+	font-weight: 700;
 	text-decoration: none;
-	font-size: 1.3vw;
+	font-size: 1.6vw;
 	padding: 0 35px;
 	z-index: 2;
 }
@@ -343,7 +388,7 @@ nav {
 	display: block;
 	background-color: rgba(255, 255, 255, 1);
 	color: #000;
-	font-size: 1.2em;
+	font-size: 1.5vw;
 	font-weight: bold;
 	padding: 10px 0;
 	border-radius: 2px;
@@ -361,33 +406,43 @@ nav {
 .dws-menu li:hover > ul{
 	display: block;
 } --*/
-
+.block-swiper{
+}
+.blackback{
+	position: absolute;
+	display: flex;
+    width:100%;
+    height:100vh;
+    background:#000;
+    opacity:0.2;
+    z-index: 2;
+}
 .content{
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
 	position: absolute;
-	top:25%;
-	left:15%;
 	z-index: 2;
-	max-width: 30%;
-	max-height: 70%;
-	text-align: center;
-	border:1px solid #F7D733;
-	background-color:hsla(222, 12%, 90%, 0.7);
+	width: 70%;
+	top:30%;
+	margin-left:3%;
 	border-radius: 3px;
 }
+
 .content h1{
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.3vw;
+	font-size: 4vw;
 	padding:10px;
 	color: #FFFFFF;
 	text-shadow:1px 1px 2px black, 0 0 1em #404951;
 }
 .content p{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.6vw;
+	font-size: 2vw;
 	padding: 20px;
+	color:#fff;
+	text-shadow:1px 1px 2px black, 0 0 1em #404951;
+	
 
 }
 .block-swiper{
@@ -449,9 +504,6 @@ nav {
 	font-size: 1.6vw;
 
 }
-.raise{
-
-}
 
 .backfo2{
 	position: absolute;
@@ -470,7 +522,7 @@ nav {
 	background-size: 100% 100%;
 	position:absolute;
 	background-attachment:fixed;
-	background-image: url(../img/DesignFlats/LivingRoom2/01.jpg);
+	background-image: url(../img/DesignFlats/LivingRoom2/02.jpg);
 	-webkit-filter: blur(2px);
 	-moz-filter: blur(2px);
 	-o-filter: blur(2px);
@@ -591,7 +643,6 @@ nav {
 	background: #fff;
 	border-radius: 5px;
 	width: 80%;
-	min-height: 70vh;
 	max-height: 80vh;
 	transition: all .5s ease-in-out;
 }
@@ -676,7 +727,7 @@ nav {
 }
 
 .content3{
-	width: 80%;
+	width: 90%;
 	height: 100%;
 	display:flex;
 	justify-content: center;
@@ -696,11 +747,10 @@ nav {
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
-	height: 70vh;
+	width: 450px;
+	height: 400px;
 	margin:0 3%;
 	border:2px solid gray;
-	
 }
 
 .bluewrap h1{
@@ -709,16 +759,16 @@ nav {
 	font-family: 'Oswald', sans-serif;
 	font-size: 2.3vw;
 	color: #404951;
+
 }
 
 .blueprints{
-	width: 80%;
-	height: 80%;
+	width: 75%;
+	height:75%;
 	display: block;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-image: url(../img/blueprints01.jpg);
-	border-right: 1px solid silver;
 	transform: translateZ(0);
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -763,19 +813,18 @@ nav {
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
-	height: 70vh;
+	width: 450px;
+	height: 400px;
 	margin:0 3%;
 	border:2px solid gray;
 }
 .visualization{
-	width: 80%;
-	height:80%;
+	width: 75%;
+	height:75%;
 	display: block;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-image: url(../img/DesignFlats/livingRoom5/03.jpg);
-	border-left: 1px solid silver;
 	transform: translateZ(0);
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
@@ -874,6 +923,7 @@ nav {
 	flex-direction: column;
 	width: 50%;
 	padding-left: 8%;
+	margin-top: 2%;
 	position: relative;
 }
 .tmtx{
@@ -1207,6 +1257,9 @@ nav {
 	.col-sm-4{
 		margin-bottom: 10%;
 	}
+	.owl-stage img{
+		height: 30vh;
+	}
 }
 .col-sm-4:before{
 	content:"";
@@ -1223,25 +1276,23 @@ nav {
 	display: flex;
 	position: relative;
 	top:10%;
-	margin:0 auto 5% auto;
-	width:80%;
+	margin:0 auto 3% auto;
+	width:95%;
 	z-index: 3;	
 }
 .owl-carousel img{
-	border:1px solid #fff;
-
+	height: 35vh;
+	border:4px solid #fff;
 }
 input::-webkit-input-placeholder{
 	font-family: 'Open Sans', sans-serif;
 	color: #ddd; 
 }
 .form-group{
-  margin:8%;
+  margin:8% 0;
   display: flex;
   position: relative;
   justify-content: center;
-
-
 }
 .form-control{
   font-family: 'Open Sans', sans-serif;
@@ -1326,6 +1377,13 @@ input::-webkit-input-placeholder{
 	height:100%;
 	z-index: -1;
 }
+.swiper-button-next{
+	outline:none;
+}
+.swiper-button-next:after{
+	color:#FFE831;
+}
+
 
 .swiper-slide img{
 	display: block;
