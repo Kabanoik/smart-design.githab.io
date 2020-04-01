@@ -428,3 +428,9 @@
 
 
 }
+
+@media (max-height: 280px){
+		.goo{
+			display: none;
+		}
+	}
