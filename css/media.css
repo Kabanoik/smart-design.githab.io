@@ -68,7 +68,7 @@
 		font-size: 1.7vw;
 	}
 	.col-sm-4{
-		max-height: 25%;
+	
 	}
 	.owl-carousel img{
 		min-height: 20vh;
@@ -340,6 +340,7 @@
 		padding:0 2%;
 	}
 	.col-sm-4{
+		height: 200px;
 		width: 60%;
 		margin:5% auto;
 		padding:3%;
