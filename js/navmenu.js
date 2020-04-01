@@ -1,7 +1,10 @@
 $('.dws-menu li > ul').hide();
 
-	$('.services').hover( function(){
+	$('.services').click( function(){
 		$('.sub1').slideToggle(300)	
+});
+	$('#container').click( function(){
+		$('.sub1').slideUp(300)	
 });
 
 	$('li .subb1').hover(function(){
