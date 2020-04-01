@@ -199,9 +199,8 @@
 		font-size: 3.5vw;
 	}
 	.popup{
-		margin-top: 5%;
 		width:90%;
-		max-height: 68vh;
+		max-height: 75vh;
 	}
 	.popup .close {
 		display: flex;
