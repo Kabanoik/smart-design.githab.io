@@ -1,10 +1,24 @@
-@media (min-height: 1023px){
-	.bluewrap{
-		max-height: 50vh;
+@media (min-height: 1024px){
+	.content h1{
+		font-size: 5vw;
 	}
-	.visualwrap{
-		max-height: 50vh;
+	.content p{
+		font-size: 3vw;
 	}
+	.contenDescr{
+		width:30%;
+	}
+	#ugol{
+		font-size: 4vw;
+	}
+	.contenDescr p{
+		font-size: 1.7vw;
+	}
+	.button{
+		width: 300px;
+		font-size: 2vw;
+	} 
+	
 	.content4{
 		max-height: 80vh;
 	}
@@ -18,24 +32,30 @@
 	.lixtik4, .lixtik5{
 		margin: 0 7%;
 	}
+	.maincall h1{
+		font-size: 5vw;
+	}
+	.callback h1{
+		font-size:3vw;
+	}
 
 	.ggoo{
 		width:90%;
 	}
+	.owl-carousel img{
+		height: 26vh;
+	}
 }
-@media (min-height: 901px){
-	.blueprints, .visualization{
-		max-height: 50vh;
-	}
-	}
+
+
 
 @media (max-width: 770px){
 	
 	.content h1{
-		font-size: 3vw;
+		font-size: 7vw;
 	}
 	.content p {
-		font-size: 2vw;
+		font-size: 4vw;
 	}
 	.con-wrap{
 		flex-direction: column;
@@ -44,31 +64,55 @@
 		width:40%;
 	}
 	.contenDescr p {
-		font-size: 1.5vw;
-	}
-	.button a{
 		font-size: 2vw;
+	}
+	.button {
+		font-size: 2.3vw;
 	}
 	.buttons {
 		margin:10% 10%;
+	}
+	.moreInf a{
+		font-size: 1.8vw;
+	}
+	.popup h2{
+		font-size: 4vw;
+	}
+
+	.contentss h3{
+		font-size: 3vw;
+	}
+	.contentss p{
+		font-size: 2vw;
 	}
 	.bluewrap{
 		max-height: 30vh;
 	}
 	.visualwrap{
 		max-height: 30vh;
-	}
+	} 
 	.content4{
 		height:70vh ;
 	}
+	.tmtx p{
+		font-size: 1.7vw;
+	}
+
 	.lixtik, .lixtik2, .lixtik3, .lixtik4, .lixtik5{
 			width: 25%;
 	}
 	.lixtik p, .lixtik2 p, .lixtik3 p, .lixtik4 p, .lixtik5 p{
 		font-size: 1.7vw;
 	}
+
+	.maincall h1{
+		font-size: 5vw;
+	}
+	.callback h1{
+		font-size: 4vw;
+	}
 	.col-sm-4{
-	
+		
 	}
 	.owl-carousel img{
 		min-height: 20vh;
@@ -79,8 +123,12 @@
 
 }
 @media (max-width: 500px){
+	.swiper-slide img{
+
+	}
 	.swiper-container{
-		height:100vh;
+
+
 	}
 	.LogoMobile{
 		display: flex;
@@ -119,15 +167,13 @@
 		top: 10%;
 	}
 	.content{
-		top:30%;
-		left:20%;
-		max-width: 60%;
+		
 	}
 	.content h1{
-		font-size: 6vw;
+		font-size: 7vw;
 	}
 	.content p{
-		font-size: 4vw;
+		font-size: 5vw;
 		padding: 3%;
 	}
 	.contenDescr {
@@ -250,11 +296,11 @@
 	}
 	.lixtik, .lixtik2{
 		width:40%;
-		height: 27vh;
+		height: 25vh;
 	} 
 	.lixtik4, .lixtik5{
 		width:40%;
-		height: 27vh;
+		height: 25vh;
 		margin:0 4%;
 	}
 	.lixtik p, .lixtik2 p, .lixtik4 p, .lixtik5 p{
@@ -268,7 +314,7 @@
 		display: flex;
 		background-color: hsla(208, 12%, 28%, 0.7);
 		width: 40%;
-		height: 27vh;
+		height: 25vh;
 		margin:0 auto;
 		margin-bottom: 3%;
 		padding: 1%;
@@ -289,7 +335,7 @@
 		border-radius: 3px;
 		color:#FFFFFF;
 		padding: 3%;
-		font-size: 90%;
+		font-size: 3vw;
 		align-items: center;
 		text-align: center;
 	}
@@ -337,11 +383,15 @@
 		font-size: 6vw;
 	}
 	.callback h1{
+		font-size: 5vw;
 		padding:0 2%;
 	}
+	.firscont{
+		flex-direction: column;
+	}
 	.col-sm-4{
-		height: 200px;
 		width: 60%;
+		height: 200px;
 		margin:5% auto;
 		padding:3%;
 		top:0;
@@ -358,10 +408,9 @@
 		font-size: 3vw;
 	}
 	.ggoo{
-		display:none;
 		top:70%;
 		position: absolute;
-		left:10%;
+		left:2%;
 		
 	}
 	.owl-carousel img{
