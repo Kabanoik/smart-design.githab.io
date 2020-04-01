@@ -7,7 +7,7 @@ body {
  	padding: 0;
 }
 ::selection{
-	background:rgba(110, 110, 110, 0.87);
+	background:rgba(254, 217, 32, 0.7);
 } 
 footer {
 	bottom: 0;
@@ -177,27 +177,15 @@ nav {
 	position: relative;
 	flex-direction: column;
 	align-items: center;
-	flex-wrap: wrap;
-	margin:2% auto;
 	background: rgba(255, 255, 255, 1);
 	padding:10px 0 0 0;
 	border-radius: 5px;
 	width: 40%;
-	min-height: 40vh;
+	min-height: 30vh;
 	max-height: 75vh;
 	transition: all .5s ease-in-out;
 }
 
-.popup2:before{
-	content:"";
-	position: absolute;
-	top:0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	filter: blur(4px);
-
-} 
 .popup2 h2 {
 	width: 80%;
 	font-family: 'Oswald', sans-serif;
@@ -616,6 +604,9 @@ nav {
 
 /*---- POPUP ----*/
 .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1185,22 +1176,28 @@ nav {
   display:flex;
   position: absolute;
   width:100%;
-  min-height: 100vh;
-  max-height:100vh;
+  height:100vh;
   overflow: hidden;
    
 }
 .row{
   display:flex;
-  flex-direction: row;
-  flex-wrap:wrap;
   position:relative;
+  flex-direction: column;
   width:100%;
   height:100vh;
   background-attachment:fixed ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url(../img/DesignFlats/Cafe/01.jpg);
+}
+.firscont{
+	display:flex;
+  	position:relative;
+  	justify-content: space-between;
+  	background: inherit;
+	width: 100%;
+	height: 50vh;
 }
 .maincall{
 	display: flex;
@@ -1227,6 +1224,7 @@ nav {
 	font-weight: normal;
 	font-size: 2.3vw;
 	color:#fff;
+	padding-right: 1%;
 	
 }
 .canfon{
@@ -1243,15 +1241,15 @@ nav {
   display: block;
   position: relative;
   margin-bottom: 1%;
-  top:5%;
-  left:10%;
+  top:10%;
+  right:10%;
   width: 25%;
   height: 250px;
   justify-content: center;
   align-items: center;
   border-radius: 2px;
   background: inherit;
-  border:4px solid rgba(255, 255, 255, .4);
+  outline:4px solid rgba(255, 255, 255, .4);
   z-index: 2;
 }
 @media (min-height: 1024px){
@@ -1283,7 +1281,7 @@ nav {
 }
 .owl-carousel img{
 	height: 35vh;
-	border:4px solid #fff;
+	border:2px solid #fff;
 }
 input::-webkit-input-placeholder{
 	font-family: 'Open Sans', sans-serif;
@@ -1304,7 +1302,7 @@ input::-webkit-input-placeholder{
   line-height:2;
   text-decoration:none;
   border:none;
-  border-bottom:3px solid #3C435F;
+  border-bottom:2px solid #3C435F;
   outline:none;
 
 
@@ -1390,17 +1388,6 @@ input::-webkit-input-placeholder{
 	display: block;
 	width: 100%;
 	height: 100%;
-}
-.swiper-slide p{
-	position: absolute;
-	font-family: 'Open Sans', sans-serif;
-	text-shadow:1px 1px 2px black, 0 0 1em #404951;
-	background: hsla(208, 12%, 30%, 0.5);
-	font-weight: bold;
-	border-radius: 3px;
-	color:#FFFFFF;
-	padding: 3%;
-	font-size: 1.7em;
 }
 
 .backcolor p{
