@@ -357,6 +357,7 @@
 		font-size: 3vw;
 	}
 	.ggoo{
+		display:none;
 		top:70%;
 		position: absolute;
 		left:10%;
