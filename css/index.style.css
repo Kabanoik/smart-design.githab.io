@@ -1240,7 +1240,7 @@ nav {
 }
 
 .col-sm-4{
-  display: flex;
+  display: block;
   position: relative;
   margin-bottom: 1%;
   top:5%;
