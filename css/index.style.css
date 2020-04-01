@@ -10,10 +10,9 @@ body {
 	background:rgba(254, 217, 32, 0.7);
 } 
 footer {
-	bottom: 0;
+	display: flex;
 	position: relative;
 	width: 100%;
-	height: auto;
 	background-color:rgba(14, 16, 17, 1);
 	color:#FBFBFC;
 }
@@ -33,7 +32,6 @@ nav {
 	display: flex;
 	position: absolute;
 	width: 100%;
-	height: auto;
 	z-index: 3;	
 }
 
@@ -1243,6 +1241,7 @@ nav {
   margin:3% 0 3% 0; 
   padding:0 3%;
   right:10%;
+  max-height: 300px;
   justify-content: center;
   align-items: center;
   border-radius: 2px;
