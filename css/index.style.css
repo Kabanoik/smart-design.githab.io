@@ -1197,7 +1197,8 @@ nav {
   	justify-content: space-between;
   	background: inherit;
 	width: 100%;
-	height: 50vh;
+	height: 60vh;
+	margin-bottom: 5%;
 }
 .maincall{
 	display: flex;
