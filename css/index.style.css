@@ -406,7 +406,6 @@ nav {
 .content{
 	display: flex;
 	flex-direction: column;
-	box-sizing: border-box;
 	position: absolute;
 	z-index: 2;
 	width: 70%;
