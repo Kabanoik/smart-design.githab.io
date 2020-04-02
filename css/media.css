@@ -122,7 +122,7 @@
 	}
 
 }
-@media (max-width: 500px){
+@media screen and (max-width: 550px){
 	.swiper-slide img{
 
 	}
@@ -368,6 +368,9 @@
 	    transform: translateY(0);
 	  }
 	}
+	.container6{
+		min-height: 600px;
+	}
 
 	.row{
 		flex-direction: column;
@@ -427,7 +430,7 @@
 
 }
 
-@media (max-height: 300px){
+@media (max-height: 280px){
 		.ggoo{
 			display: none;
 		}
