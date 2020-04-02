@@ -2,7 +2,7 @@ body {
 	
 	background-color: #F7F7F9;
 }
-*{	
+*{	box-sizing: border-box;
  	margin: 0;
  	padding: 0;
 }
