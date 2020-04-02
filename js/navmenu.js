@@ -3,7 +3,7 @@ $('.dws-menu li > ul').hide();
 	$('.services').click( function(){
 		$('.sub1').slideToggle(300)	
 });
-	$('#container').click( function(){
+	$('.block-swiper').click( function(){
 		$('.sub1').slideUp(300)	
 });
 
