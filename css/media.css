@@ -201,10 +201,11 @@
 	.popup{
 		width:90%;
 		max-height: 75vh;
+
 	}
 	.popup .close {
 		display: flex;
-		top:103%;
+		top:101.5%;
 		right:0;
 		left: 0;
 		margin:0 auto;
