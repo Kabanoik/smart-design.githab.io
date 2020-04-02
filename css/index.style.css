@@ -1239,7 +1239,7 @@ nav {
   position: relative;
   margin:3% 0 3% 0; 
   padding:0 3%;
-  right:10%;
+  margin-right:10%;
   max-height: 300px;
   justify-content: center;
   align-items: center;
