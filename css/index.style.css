@@ -2,7 +2,8 @@ body {
 	
 	background-color: #F7F7F9;
 }
-*{	box-sizing: border-box;
+*{	
+	
  	margin: 0;
  	padding: 0;
 }
@@ -10,7 +11,6 @@ body {
 	background:rgba(254, 217, 32, 0.7);
 } 
 footer {
-	display: flex;
 	position: relative;
 	width: 100%;
 	background-color:rgba(14, 16, 17, 1);
@@ -29,7 +29,7 @@ footer {
 
 
 nav {
-	display: flex;
+	display: block;
 	position: absolute;
 	width: 100%;
 	z-index: 3;	
@@ -940,7 +940,7 @@ nav {
 .content5{
 	width: 100%;
 	height: 110vh;
-	display: flex;
+	display: block;
 	flex-direction: column;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -1171,7 +1171,7 @@ nav {
 }
 
 .conteiner6{
-  display:flex;
+  display:block;
   position: relative;
   width:100%;
   height:100%;
@@ -1269,7 +1269,7 @@ nav {
 
 } 
 .ggoo{
-	display:flex;
+	display:block;
 	position: relative;
 	margin:0 auto 3% auto;
 	height: 35vh;
