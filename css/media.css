@@ -391,11 +391,8 @@
 	}
 	.col-sm-4{
 		width: 60%;
-		height: 200px;
 		margin:5% auto;
 		padding:3%;
-		top:0;
-		left:0;
 	}
 	.form-control{
 		font-size: 4vw;
