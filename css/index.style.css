@@ -1,6 +1,10 @@
+html{
+	 min-height: 100% !important;
+}
 body {
 	
 	background-color: #F7F7F9;
+	position: relative;
 }
 *{	
 	
@@ -145,9 +149,7 @@ nav {
 	padding-top:2%;
 }
 .phoneColor{
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction:column;
+	display: block;
 	position: relative;
 	padding:2%;
 	border-bottom-left-radius: 10px;
@@ -393,6 +395,8 @@ nav {
 	display: block;
 } --*/
 .block-swiper{
+	height: 100vh;
+	position: relative;
 }
 .blackback{
 	position: absolute;
@@ -431,11 +435,12 @@ nav {
 
 }
 .block-swiper{
-	width: 100%;
-	height: 100vh;
 }
 
 .content2{	
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 .con-wrap{
 	display: flex;
@@ -698,7 +703,6 @@ nav {
 .dproect{
 	display:flex;
 	width: 100%;
-	margin:2% 0;
 	justify-content: center;
 	text-align: center;
 }
@@ -708,6 +712,7 @@ nav {
 	color: #404951;
 	border: 1px solid#CFCFCF; 
 	padding: 10px;
+	margin:2% 0;
 	background:#FFE831;
 	border-radius: 3px;
 	box-shadow: 3px 2px 15px -3px;
@@ -715,8 +720,7 @@ nav {
 }
 
 .content3{
-	width: 90%;
-	height: 100%;
+	width: 100%;
 	display:flex;
 	justify-content: center;
 	position: relative;
@@ -846,7 +850,8 @@ nav {
 }
 .content4{
 	width: 100%;
-	height:100vh;
+	min-height: 100vh;
+	height: 100%;
 	position: relative;
 	justify-content: center;
 	align-items: center;
@@ -938,7 +943,7 @@ nav {
 
 .content5{
 	width: 100%;
-	height: 110vh;
+	height: 100vh;
 	display: block;
 	flex-direction: column;
 	background-repeat: no-repeat;
@@ -949,7 +954,6 @@ nav {
 
 .dproect3{
 	display: flex;
-	margin:2% 0;
 	justify-content: center;
 	text-align: center;
 }
@@ -958,6 +962,7 @@ nav {
 	color: #404951;
 	border: 1px solid #CFCFCF; 
 	padding: 10px;
+	margin:2% 0;
 	background:#FFE831;
 	border-radius: 3px;
 	box-shadow: 3px 2px 15px -3px;
@@ -1173,7 +1178,7 @@ nav {
   display:block;
   position: relative;
   width:100%;
-  min-height: 600px;
+  height: 100%;
   overflow: hidden;
    
 }
@@ -1365,11 +1370,11 @@ input::-webkit-input-placeholder{
 
 /*--- slider ---*/
 .swiper-container {
-	display: flex;
+	display: block;
 	position: absolute;
 	width: 100%;
+	height: 100%;
 	top:0;
-	height:100%;
 	z-index: -1;
 }
 .swiper-button-next{
