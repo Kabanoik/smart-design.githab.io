@@ -3,11 +3,12 @@ html{
 }
 body {
 	display: block;
-	background-color: #F7F7F9;
+	height: 3640px;
 	position: relative;
+	background-color: #F7F7F9;
 }
 *{	
-	box-sizing: content-box;
+
  	margin: 0;
  	padding: 0;
 }
