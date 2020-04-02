@@ -2,7 +2,7 @@ html{
 	 min-height: 100% !important;
 }
 body {
-	
+	box-sizing:content-box
 	background-color: #F7F7F9;
 	position: relative;
 }
