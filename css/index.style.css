@@ -148,6 +148,7 @@ nav {
 }
 .phoneColor{
 	display: block;
+	word-wrap:normal; 
 	position: relative;
 	padding:2%;
 	border-bottom-left-radius: 10px;
