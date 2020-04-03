@@ -2,9 +2,6 @@ html{
 	 min-height: 100% !important;
 }
 body {
-	display: block;
-	height: 3640px;
-	position: relative;
 	background-color: #F7F7F9;
 }
 *{	
@@ -396,9 +393,9 @@ nav {
 	display: block;
 } --*/
 .block-swiper{
-	min-height: 560px;
 	height: 100vh;
 	position: relative;
+	padding: 20px 0;
 }
 .blackback{
 	position: absolute;
@@ -406,7 +403,7 @@ nav {
     width:100%;
     height:100vh;
     background:#000;
-    opacity:0.2;
+    opacity:0.3;
     z-index: 2;
 }
 .content{
@@ -436,15 +433,17 @@ nav {
 	
 
 }
-.block-swiper{
-}
+
 
 .content2{	
 	display: block;
 	position: relative;
 	width: 100%;
 	min-height: 560px;
-	height: 100%;
+	padding: 40px 0;
+	
+	
+	z-index: 1;
 }
 .con-wrap{
 	display: flex;
@@ -460,7 +459,7 @@ nav {
 	position: relative;
 	margin:0 10%;
 	flex-direction: column;
-	z-index: 1;
+	z-index: 2;
 }
 
 .button:hover,
@@ -510,20 +509,21 @@ nav {
 
 }
 .backfon{
-	width: 100%;
-	height: 100vh;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	position:absolute;
-	background-attachment:fixed;
+    background-attachment:fixed;
 	background-image: url(../img/DesignFlats/LivingRoom2/02.jpg);
 	-webkit-filter: blur(2px);
 	-moz-filter: blur(2px);
 	-o-filter: blur(2px);
 	-ms-filter: blur(2px);
 	filter: blur(2px);
-
-
 }
 .contenDescr{
 	display: flex;
@@ -548,7 +548,6 @@ nav {
 	position: relative;
 	justify-content: center;
 	width: 110%;
-	height: auto;
 	align-items: center;
 	margin-left: -10px; /* 30 padding conteiner + 1 border conteiner + 10 border before */
 	margin-right: -10px;
@@ -730,7 +729,8 @@ nav {
 	position: relative;
 	overflow: hidden;
 	margin:0 auto;
-	padding-bottom: 5%;
+	
+	padding: 20px 0;
 
 }
 .content3 h1{
@@ -945,6 +945,7 @@ nav {
 
 
 .content5{
+	padding: 20px 0;
 	width: 100%;
 	min-height: 560px;
 	height: 100vh;
@@ -953,7 +954,7 @@ nav {
 	flex-direction: column;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-attachment:fixed;
+	background-attachment:;
 	background-image: url(../img/DesignFlats/livingRoom9/01.jpg);
 }
 
@@ -1179,12 +1180,13 @@ nav {
   }
 }
 
-.conteiner6{
+.container6{
   display:block;
   position: relative;
   width:100%;
   min-height: 568px;
   height: 100%;
+  padding: 20px 0;
 }
 .row{
   display:flex;
