@@ -1288,6 +1288,7 @@ input::-webkit-input-placeholder{
 }
 .form-group{
   margin:8% 0;
+  padding:2% 10%;
   display: flex;
   position: relative;
   justify-content: center;
