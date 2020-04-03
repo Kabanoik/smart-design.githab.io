@@ -369,11 +369,12 @@
 	  }
 	}
 	.container6{
-		min-height: 600px;
+
 	}
 
 	.row{
 		flex-direction: column;
+		min-height: 550px;
 	}
 	.maincall{
 		width:auto;
