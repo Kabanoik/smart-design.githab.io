@@ -374,7 +374,6 @@
 	}
 
 	.row{
-		flex-direction: column;
 		min-height: 550px;
 	}
 	.maincall{
@@ -392,6 +391,7 @@
 		padding:0 2%;
 	}
 	.firscont{
+		flex-wrap: nowrap;
 		flex-direction: column;
 	}
 	.col-sm-4{
@@ -410,7 +410,7 @@
 		font-size: 3vw;
 	}
 	.ggoo{
-		
+		margin-top:12%;
 	}
 	.owl-carousel img{
 		height: 20vh;
