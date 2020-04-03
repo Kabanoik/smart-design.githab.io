@@ -1185,7 +1185,8 @@ nav {
   display:flex;
   position:relative;
   flex-direction: column;
-  width:100%;
+  padding: 0 7%;
+  width:86%;
   min-height: 550px;
   height:100vh;
   background-attachment:fixed ;
@@ -1195,6 +1196,7 @@ nav {
 }
 .firscont{
 	display:flex;
+	flex-wrap: wrap;
   	position:relative;
   	justify-content: space-between;
   	background: inherit;
@@ -1233,6 +1235,7 @@ nav {
 	position: absolute;
 	display: flex;
     width:100%;
+    min-height: 550px;
     height:100vh;
     background:#000;
     opacity:0.3;
@@ -1243,7 +1246,7 @@ nav {
   display:flex;
   position: relative;
   margin:3% 0 3% 0; 
-  padding:0 3%;
+  padding:2%;
   margin-right:10%;
   max-height: 300px;
   justify-content: center;
@@ -1273,12 +1276,7 @@ nav {
 
 } 
 .ggoo{
-	display:flex;
-	position: relative;
-	margin:0 auto 3% auto;
-	height: 35vh;
-	width:95%;
-	z-index: 3;	
+	margin-top:5%;
 }
 .owl-carousel img{
 	height: 20%;
