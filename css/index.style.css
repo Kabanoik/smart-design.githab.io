@@ -126,9 +126,6 @@ nav {
 	padding-left: 20px;
 	color:#394146;
 	font-size: 2.3vw;
-	-webkit-transition: .5s;
-	-o-transition: .5s;
-	transition: .5s;
 }
 
 .phoneColor a:hover{
@@ -147,8 +144,9 @@ nav {
 	padding-top:2%;
 }
 .phoneColor{
-	display: block;
-	word-wrap:normal; 
+	display: flex;
+	flex-direction: column;
+	flex-wrap:nowrap; 
 	position: relative;
 	padding:2%;
 	border-bottom-left-radius: 10px;
@@ -427,8 +425,8 @@ nav {
 }
 .content p{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 2vw;
-	padding: 20px;
+	font-size: 2.5vw;
+	padding: 10px;
 	color:#fff;
 	text-shadow:1px 1px 2px black, 0 0 1em #404951;
 	
@@ -950,7 +948,7 @@ nav {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment:fixed;
-	background-image: url(../img/DesignFlats/livingRoom9/01.jpg);
+	background-image: url(../img/DesignFlats/livingRoom11/02.jpg);
 }
 
 .dproect3{
@@ -996,7 +994,7 @@ nav {
 	display: flex;
 	background-color: hsla(208, 12%, 28%, 0.7);
 	width: 15%;
-	height: 30vh;
+	
 	margin:0 4%;
 	padding: 1%;
 	flex-direction: column;
@@ -1004,7 +1002,6 @@ nav {
 	border-radius: 4px;
 	border:1px solid #FFF;
 	transform: translateZ(0);
-
 }
 
 
@@ -1012,7 +1009,7 @@ nav {
 	display: flex;
 	background-color: hsla(208, 12%, 28%, 0.7);
 	width: 15%;
-	height: 30vh;
+	
 	margin:0 10%;
 	padding: 1%;
 	flex-direction: column;
@@ -1025,7 +1022,7 @@ nav {
 .lixtik p,.lixtik2 p, .lixtik3 p, .lixtik4 p, .lixtik5 p{
 	display: flex;
 	justify-content: center;
-	height: 15vh;
+	
 	font-family: 'Open Sans', sans-serif;
 	text-shadow:1px 1px 2px black, 0 0 1em #404951;
 	font-weight: bold;
@@ -1215,7 +1212,7 @@ nav {
 }
 .maincall h1{
 	font-family: 'Oswald', sans-serif;
-	font-size: 3vw;
+	font-size: 3.5vw;
 	text-transform: uppercase;
 	color:#fff;
 	text-shadow:1px 1px 2px black, 0 0 1em #404951;
@@ -1255,31 +1252,10 @@ nav {
   align-items: center;
   border-radius: 2px;
   background: inherit;
-  outline:4px solid rgba(255, 255, 255, .4);
+  border:4px solid rgba(255, 255, 255, .4);
   z-index: 1;
 }
-@media (min-height: 750px){
-	.col-sm-4{
-		
-	}
-	.ggoo{
-		top:20%;
-		margin-top:10%;
-	}	
-	.owl-stage img{
-		height: 30vh;
-	}
-}
-@media (min-width: 1900px){
-	.col-sm-4{
-		height: 500px;
-		max-height: 500px
-	}
-	.ggoo{
-		top:1%;
-		margin-top:1%;
-	}
-}
+
 .col-sm-4:before{
 	content:"";
 	position: absolute;
@@ -1292,9 +1268,8 @@ nav {
 
 } 
 .ggoo{
-
 	position: relative;
-	margin-top:4%;
+	margin-top:3%;
 }
 .owl-carousel img{
 	height: 20%;
@@ -1402,7 +1377,6 @@ input::-webkit-input-placeholder{
 
 .swiper-slide img{
 	display: block;
-	object-fit: cover;
 	width: 100%;
 	height: 100%;
 }
