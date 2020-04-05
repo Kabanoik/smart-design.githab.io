@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Projects</title>
 	<link rel="stylesheet" href="css/projects.style.css">
- 	<link rel="stylesheet" href="css/fonts.css">
  	<link rel="stylesheet" href="css/fonts.css">
  	<link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/pushyMenu.css">
@@ -17,14 +17,17 @@
     <div class="LogoMobile"><a href="/">Smart-Design</a></div>
     <nav class="menu">
         <div class="logoandAll">
-        <div class="mainLogo"><h1><a href="/">Smart-Design</a></h1></div>
+        <div class="mainLogo"><a href="/">Smart-Design</a></div>
       
           <div class="dws-menu">
             <div class="phoneform">
               <span class="buttonn"><a href="#popup4" class="fill">Заказать звонок</a></span>
+              <div class="viberPhone">
+                <a href="viber://chat?number=0506459521">&emsp;<img src="img/iconViber.svg"></a>
+              </div>
               <div class="phoneColor">
-                <a href="tel:+38(050)645-95-21">+38 050 645-95-21</a><br>
-                <a href="tel:+38(096)740-17-10">+38 096 740-17-10</a>
+                <a href="tel:+38(050)645-95-21">+38 050 645-95-21</a>
+                <a class="phoneSecond" href="tel:+38(096)740-17-10">+38 096 740-17-10</a>
               </div>
             </div>
 
@@ -39,8 +42,8 @@
                                 <li><a href="#">Компьютерные столы</a></li>
                                 <li><a href="#">Торговое оборудование</a></li>
                             </ul>
-                    </li><!--- furniture --->
-                    <li class="repairs"><a href="#" class="btn btn-4"><span>Ремонт</span></a>
+                    </li><!-- furniture -->
+                     <li class="repairs"><a href="#" class="btn btn-4"><span>Ремонт</span></a>
                             <ul class="sub3">
                                 <li><a href="#">Ремонт квартир</a></li> 
                             <li><a href="#">Ремонт офисов</a></li> 
@@ -50,7 +53,7 @@
                             </ul>
                         </li>
                 </ul>
-              </li>
+              </li> 
                   <li><a href="projects.index.html" class="btn btn-2">Проекты</a></li>
                       <li><a href="#" class="btn btn-2">Контакты</a></li>
                       <li><a href="#" class="btn btn-2">О нас</a></li>
@@ -60,12 +63,11 @@
           </div><!-- dws-menu -->
       </div><!--- logoandAll --->
     </nav>
-	</header>
+    
+    </header>
 
 
     <div class="wrapback"></div>
-<div class="wrapper">
-<div class="wrap">
 
     <!-- Site Overlay -->
         <div class="site-overlay"></div>
@@ -77,6 +79,7 @@
         <nav class="pushy pushy-left" data-focus="#first-link">
             <div class="pushy-content">
                 <ul>
+                    <li class="pushy-link"><a href="/">Главная</a></li>
                     <li class="pushy-submenu">
                         <button id="first-link">Услуги</button>
                         <ul>
@@ -108,6 +111,9 @@
                 </ul>
             </div>
         </nav>
+        <div class="wrapper">
+
+        <div id="container">
 
 	<div id="popup4" class="overlay">
           <div class="popup2">
@@ -115,35 +121,35 @@
               <a class="close" href="#">&times;</a>
               <div class="contentss2">
 
-                  <div class="col-sm-4">
-                    <form action="" method="POST">
+                  <div class="col-sm">
+                    <form action="telegram.php" method="POST">
 
-                      <div class="form-group">
-                        <label for=""></label>
+                      <div class="form-group4">
                         <input type="text" class="form-control" id="" name="user_name" placeholder="Ваше имя">
                       </div>
                     
-                      <div class="form-group">
-                        <label for=""></label>
+                      <div class="form-group4">
                         <input type="number" class="form-control" id="" name="user_phone" placeholder="Ваш номер">
                       </div>
                     
                       <button type="submit" class="pulse">Отправить заявку</button>
                     </form>
                   </div><!-- .col-sm-4 -->
-              </div>
-          </div><!--- popup --->
-        </div><!--- popup4 --->
+              </div><!-- contentss2 -->
+          </div><!-- popup2 -->
+        </div><!-- popup4 -->
 
         
 
        
 
     <a name="PhotoGallery"></a>
-	<div class="project"><h2>Фотогалерея наших работ</h2></div>
+	<div class="project"><h2>Фотогалерея наших проектов</h2></div>
     <!--  Links of Gallery  -->
+
+
 <div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" href="img/DesignFlats/LivingRoom/01.jpg" data-fancybox="gallery1"><p>Гостинная</p><p>32м2</p></a>
             <img src="img/DesignFlats/LivingRoom/01.jpg">
@@ -170,7 +176,7 @@
             </span>
         </div>
 
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery2"  href="img/DesignFlats/childrenRoom/01.jpg">
             <p>Детская для девочки</p><p>15м2</p></a><img src="img/DesignFlats/childrenRoom/01.jpg">
@@ -197,7 +203,7 @@
             </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery3"  href="img/DesignFlats/LivingRoom2/02.jpg">
             <p>Гостинная</p><p>15м2</p></a><img src="img/DesignFlats/LivingRoom2/02.jpg">
@@ -224,14 +230,7 @@
             </span>
     </div>
 
-    
-</div><!-- Gallery -->
-
-
-
-<!---- GALLERY2 ---->
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery4"  href="img/DesignFlats/apartment/01.jpg">
             <p>Гостинная</p><p>19м2</p></a><img src="img/DesignFlats/apartment/01.jpg">
@@ -270,22 +269,23 @@
             </span>
             <span>
                 <a data-caption="Фото 6" data-fancybox="gallery4" href="img/DesignFlats/apartment/10.jpg">
-                <img src="img/DesignFlats/apartment/10.jpg"></a>
+                <img src="img/DesignFlats/apartment/010.jpg"></a>
             </span>
             <span>
                 <a data-caption="Фото 6" data-fancybox="gallery4" href="img/DesignFlats/apartment/11.jpg">
-                <img src="img/DesignFlats/apartment/11.jpg"></a>
+                <img src="img/DesignFlats/apartment/011.jpg"></a>
             </span>
             <span>
                 <a data-caption="Фото 6" data-fancybox="gallery4" href="img/DesignFlats/apartment/12.jpg">
-                <img src="img/DesignFlats/apartment/12.jpg"></a>
+                <img src="img/DesignFlats/apartment/012.jpg"></a>
             </span>
             <span>
                 <a data-caption="Фото 6" data-fancybox="gallery4" href="img/DesignFlats/apartment/13.jpg">
-                <img src="img/DesignFlats/apartment/13.jpg"></a>
+                <img src="img/DesignFlats/apartment/013.jpg"></a>
             </span>
     </div>
-    <div class="gblock2">
+
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery5"  href="img/DesignFlats/childrenRoom2/01.jpg">
             <p>Детская комната</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom2/01.jpg">
@@ -319,7 +319,8 @@
                 <img src="img/DesignFlats/childrenRoom2/08.jpg"></a>
             </span>
     </div>
-    <div class="gblock3">
+
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery6"  href="img/DesignFlats/livingRoom-kitchen-diningRoom/01.jpg">
             <p>Детская комната</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom-kitchen-diningRoom/01.jpg">
@@ -353,17 +354,8 @@
                 <img src="img/DesignFlats/livingRoom-kitchen-diningRoom/08.jpg"></a>
             </span>
     </div>
-</div>
 
-
-
-<!---- GALLERY3 ---->
-
-
-
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery7"  href="img/DesignFlats/lobby/01.jpg">
             <p>Детская комната</p><p>23м2</p></a><img src="img/DesignFlats/lobby/01.jpg">
@@ -397,7 +389,7 @@
                 <img src="img/DesignFlats/lobby/08.jpg"></a>
             </span>
     </div>
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery8"  href="img/DesignFlats/apartment2/01.jpg">
             <p>Детская комната</p><p>23м2</p></a><img src="img/DesignFlats/apartment2/01.jpg">
@@ -435,7 +427,7 @@
                 <img src="img/DesignFlats/apartment2/09.jpg"></a>
             </span>
     </div>
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery9"  href="img/DesignFlats/livingRoom3/01.jpg">
             <p>Детская комната</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom3/01.jpg">
@@ -473,18 +465,8 @@
                 <img src="img/DesignFlats/livingRoom3/09.jpg"></a>
             </span>
     </div>
-</div>
 
-
-
-
-<!---- GALLERY4 ---->
-
-
-
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery10"  href="img/DesignFlats/beautySaloon/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/beautySaloon/01.jpg">
@@ -534,7 +516,7 @@
                 <img src="img/DesignFlats/beautySaloon/012.jpg"></a>
             </span>
     </div>
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery11"  href="img/DesignFlats/beautySaloon2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/beautySaloon2/01.jpg">
@@ -568,7 +550,7 @@
                 <img src="img/DesignFlats/beautySaloon2/08.jpg"></a>
             </span>
     </div>
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery12"  href="img/DesignFlats/childrenRoom3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom3/01.jpg">
@@ -582,16 +564,7 @@
                 <img src="img/DesignFlats/childrenRoom3/03.jpg"></a>
             </span>
     </div>
-</div>
-
-
-
-<!---- GALLERY5 ---->
-
-
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery13"  href="img/DesignFlats/livingRoom4/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom4/01.jpg">
@@ -609,7 +582,7 @@
                 <img src="img/DesignFlats/livingRoom4/04.jpg"></a>
             </span>
     </div>
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery14"  href="img/DesignFlats/Cafe/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/Cafe/01.jpg">
@@ -635,7 +608,7 @@
                 <img src="img/DesignFlats/Cafe/06.jpg"></a>
             </span>
     </div>
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery15"  href="img/DesignFlats/Cafe2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/Cafe2/01.jpg">
@@ -661,18 +634,7 @@
                 <img src="img/DesignFlats/Cafe2/06.jpg"></a>
             </span>
     </div>
-</div>
-
-
-
-
-<!---- GALLERY6 ---->
-
-
-
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery16"  href="img/DesignFlats/bedroom/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bedroom/01.jpg">
@@ -682,7 +644,7 @@
                 <img src="img/DesignFlats/bedroom/02.jpg"></a>
             </span>
     </div>
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery17"  href="img/DesignFlats/livingRoom-kitchen-diningRoom2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom-kitchen-diningRoom2/01.jpg">
@@ -701,7 +663,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery18"  href="img/DesignFlats/livingRoom5/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom5/01.jpg">
@@ -719,12 +681,7 @@
             <img src="img/DesignFlats/livingRoom5/04.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY7 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery19"  href="img/DesignFlats/canteen/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/canteen/01.jpg">
@@ -735,7 +692,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery20"  href="img/DesignFlats/livingRoom6/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom6/01.jpg">
@@ -758,7 +715,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery21"  href="img/DesignFlats/cabinet/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/cabinet/01.jpg">
@@ -773,13 +730,7 @@
         </span>
         
     </div>
-</div>
-
-
-<!---- GALLERY8 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery22"  href="img/DesignFlats/kitchen/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/kitchen/01.jpg">
@@ -794,7 +745,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery23"  href="img/DesignFlats/kitchen2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/kitchen2/01.jpg">
@@ -829,7 +780,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery24"  href="img/DesignFlats/roomForMan/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/roomForMan/01.jpg">
@@ -844,12 +795,7 @@
         </span>
         
     </div>
-</div>
-
-
-<!---- GALLERY9 ---->
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery25"  href="img/DesignFlats/bedroom2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bedroom2/01.jpg">
@@ -864,7 +810,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery26"  href="img/DesignFlats/roomForMan2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/roomForMan2/01.jpg">
@@ -903,7 +849,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery27"  href="img/DesignFlats/livingRoom7/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom7/01.jpg">
@@ -918,13 +864,7 @@
         </span>
         
     </div>
-</div>
-
-
-
-<!---- GALLERY10 ---->
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery28"  href="img/DesignFlats/livingRoom8/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom8/01.jpg">
@@ -939,7 +879,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery29"  href="img/DesignFlats/bedroom3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bedroom3/01.jpg">
@@ -958,7 +898,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery30"  href="img/DesignFlats/roomForMan3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/roomForMan3/01.jpg">
@@ -973,13 +913,7 @@
         </span>
         
     </div>
-</div>
-
-
-<!---- GALLERY11 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery31"  href="img/DesignFlats/bedroom4/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bedroom4/01.jpg">
@@ -994,7 +928,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery32"  href="img/DesignFlats/childrenRoom4/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom4/01.jpg">
@@ -1009,7 +943,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery33"  href="img/DesignFlats/childrenRoom5/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom5/01.jpg">
@@ -1023,12 +957,7 @@
             <img src="img/DesignFlats/childrenRoom5/03.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY12 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery34"  href="img/DesignFlats/childrenRoom6/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom6/01.jpg">
@@ -1047,7 +976,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery35"  href="img/DesignFlats/childrenRoom7/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom7/01.jpg">
@@ -1062,7 +991,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery36"  href="img/DesignFlats/childrenRoom8/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/childrenRoom8/01.jpg">
@@ -1076,12 +1005,7 @@
             <img src="img/DesignFlats/childrenRoom8/03.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY13 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery37"  href="img/DesignFlats/bathroom/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom/01.jpg">
@@ -1100,7 +1024,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery38"  href="img/DesignFlats/livingRoom9/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom9/01.jpg">
@@ -1115,7 +1039,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery36"  href="img/DesignFlats/kitchen3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/kitchen3/01.jpg">
@@ -1133,12 +1057,7 @@
             <img src="img/DesignFlats/kitchen3/04.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY14 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery40"  href="img/DesignFlats/kitchen4/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/kitchen4/01.jpg">
@@ -1153,7 +1072,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery41"  href="img/DesignFlats/bathroom2/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom2/01.jpg">
@@ -1164,7 +1083,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery42"  href="img/DesignFlats/bathroom3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom3/01.jpg">
@@ -1174,12 +1093,7 @@
             <img src="img/DesignFlats/bathroom3/02.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY15 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery43"  href="img/DesignFlats/bathroom4/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom4/01.jpg">
@@ -1194,7 +1108,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery44"  href="img/DesignFlats/bathroom5/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom5/01.jpg">
@@ -1209,7 +1123,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery45"  href="img/DesignFlats/bathroom6/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom6/01.jpg">
@@ -1222,13 +1136,7 @@
             <a data-caption="Фото 2" data-fancybox="gallery45" href="img/DesignFlats/bathroom6/03.jpg">
             <img src="img/DesignFlats/bathroom6/03.jpg"></a>
         </span>
-    </div>
-</div>
-
-<!---- GALLERY16 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    </div><div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery46"  href="img/DesignFlats/livingRoom10/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom10/01.jpg">
@@ -1243,7 +1151,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery47"  href="img/DesignFlats/livingRoom11/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom11/01.jpg">
@@ -1258,7 +1166,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery48"  href="img/DesignFlats/bedroom5/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bedroom5/01.jpg">
@@ -1268,12 +1176,7 @@
             <img src="img/DesignFlats/bedroom5/02.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY16 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery49"  href="img/DesignFlats/livingRoom12/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/livingRoom12/01.jpg">
@@ -1288,7 +1191,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery50"  href="img/DesignFlats/classRoom/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/classRoom/01.jpg">
@@ -1303,7 +1206,7 @@
         </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery51"  href="img/DesignFlats/bathroom7/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bathroom7/01.jpg">
@@ -1317,12 +1220,7 @@
             <img src="img/DesignFlats/bathroom7/03.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY16 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery52"  href="img/DesignFlats/cabinet3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/cabinet3/01.jpg">
@@ -1337,14 +1235,14 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery53"  href="img/DesignFlats/opticsStore/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/opticsStore/01.jpg">
         </div>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery54"  href="img/DesignFlats/cafe3/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/cafe3/01.jpg">
@@ -1358,12 +1256,7 @@
             <img src="img/DesignFlats/cafe3/03.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY17 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery55"  href="img/DesignFlats/ofice/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/ofice/01.jpg">
@@ -1374,7 +1267,7 @@
             </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery56"  href="img/DesignFlats/bank/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/bank/01.jpg">
@@ -1409,7 +1302,7 @@
             </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery57"  href="img/DesignFlats/fast-food/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/fast-food/01.jpg">
@@ -1427,12 +1320,7 @@
             <img src="img/DesignFlats/fast-food/04.jpg"></a>
         </span>
     </div>
-</div>
-
-<!---- GALLERY18 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery58"  href="img/DesignFlats/playground/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/playground/01.jpg">
@@ -1444,7 +1332,7 @@
         </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery59"  href="img/DesignFlats/exterior/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/exterior/01.jpg">
@@ -1455,18 +1343,13 @@
             </span>
     </div>
 
-    <div class="gblock3">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery60"  href="img/DesignFlats/modeling/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/modeling/01.jpg">
         </div>
     </div>
-</div>
-
-<!---- GALLERY19 ---->
-
-<div class="gallery">
-    <div class="gblock1">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery61"  href="img/DesignFlats/kitchens/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/kitchens/01.jpg">
@@ -1522,7 +1405,7 @@
         </span>
     </div>
     
-    <div class="gblock2">
+    <div class="gblock">
         <div class="descr">
             <a class="title" data-caption="Фото 1" data-fancybox="gallery62"  href="img/DesignFlats/furniture/01.jpg">
             <p>Салон красоты</p><p>23м2</p></a><img src="img/DesignFlats/furniture/01.jpg">
@@ -1548,35 +1431,34 @@
                 <img src="img/DesignFlats/furniture/06.jpg"></a>
             </span>
     </div>
+
+</div><!-- Gallery -->
+
+
 </div>
-
-
-
-</div><!--- wrap --->
-
-<div class="footers">
-<footer>
+</div>
+<footer class="site-footer push">
 		      <div class="phonefooter">
 		        <p>Контакты</p>
 		        <a href="tel:+38(050)645-95-21">+38 050 645-95-21</a>
 		        <a href="tel:+38(096)740-17-10">+38 096 740-17-10</a>
 		      </div>
-		        <!---- <ul class="socialIco">
+		        <!-- <ul class="socialIco">
 		          <li><a href="#"><img src="img/vk.png" alt="Группа в контакте" title="Группа Вконтакте"></a></li>
 		          <li><a href="#"><img src="img/facebook.png" alt="Фейсбук" title="Страница facebook"></a></li>
 		          <li><a href="#"><img src="img/instagram.png" alt="instagram" title="instagram"></a></li>
 		          <li><a href="#"><img src="img/mail.png" alt="post" title="post"></a></li>
-		        </ul> ---->
+		        </ul> -->
 		        <div class="footerRights">Все права защищены &copy;2013-2020</div>
 		</footer>
-</div>
-</div><!--- wrapper --->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+
 <script src="js/jquery.fancybox.min.js"></script>
 <script src="js/pushy.min.js"></script>
 <script src="js/navmenu.js"></script>
-<script src="js/swiper.js.map"></script>
 		
 </body>
 </html>
