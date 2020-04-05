@@ -1,4 +1,5 @@
 body {
+	background:#EBEBEB;
 }
 *{	
  	margin: 0;
@@ -11,41 +12,30 @@ body {
 	display: none;
 
 }
-.wrapback{
-	position: absolute;
-	width: 100%;
-	height: 300%;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	position:absolute;
-	background-attachment:fixed;
-	background-image: url(../../img/DesignFlats/livingroom11/02.jpg);
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-	filter: blur(3px);
-}
 .wrapper{
-
+	position: relative;
+	padding-top: 120px;
 
 }
-.wrap{
-	width:100%;
-	min-height: 100%;
-	padding-bottom: 190px;
-	box-sizing: border-box;
+.wrapback{
+	width: 100%;
+	height: 500%;
+	filter: blur(2px);
+	opacity: 0.5;
+	position: absolute;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: contain;
+	background-image: url(../img/DesignFlats/livingRoom7/02.jpg);
 
 	
 }
-.footers{
+
+footer {
 	position: relative;
 	width: 100%;
-	height: 190px;
 	background-color:rgba(14, 16, 17, 1);
-	color:#FBFBFC ;
-	box-sizing: border-box;
-
+	color:#FBFBFC;
 }
 nav {
 	display: flex;
@@ -150,29 +140,51 @@ nav {
 	-o-transition-duration: .5s;
 	transition-duration: .5s;
 }
-..phoneColor a:hover{
+.phoneColor a:hover{
 	text-decoration: underline;
 
 }
 .phoneColor a{
-	color: #232325;
-	font-size: 1.2vw;
+	font-size: 1.3vw;
+	font-weight: 700;
 	text-decoration: none;
-	line-height: 0.5;
-
+	flex-wrap: nowrap;
+	color: #EBEBEB;
+	text-shadow:1px 1px 3px black, 0 0 1em #404951;
+}
+.phoneSecond{
+	padding-top:2%;
 }
 .phoneColor{
 	display: flex;
-	flex-wrap: none;
-	flex-direction:column;
+	flex-direction: column;
+	flex-wrap:nowrap; 
 	position: relative;
 	padding:2%;
-	background-color: rgba(255, 255, 255, 0.8);
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
+.viberPhone{
+	margin:auto 0;
+	position: relative;
+	left:15%;
+	
+}
+.viberPhone a{
+	text-decoration: none;
+}
+.viberPhone img{
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 50%;
+}
 
+/*---- POPUP ----*/
 .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -193,16 +205,15 @@ nav {
 	position: relative;
 	flex-direction: column;
 	align-items: center;
-	flex-wrap: wrap;
-	margin:2% auto;
+	background: rgba(255, 255, 255, 1);
 	padding:10px 0 0 0;
-	background:#ededed;
 	border-radius: 5px;
 	width: 40%;
-	min-height: 70vh;
-	max-height: 80vh;
-	
+	min-height: 30vh;
+	max-height: 75vh;
+	transition: all .5s ease-in-out;
 }
+
 .popup2 h2 {
 	width: 80%;
 	font-family: 'Oswald', sans-serif;
@@ -230,18 +241,30 @@ nav {
 	width: 100%;
 	height: auto;
 }
-.col-sm-4{
+.col-sm{
   display: flex;
-  position: absolute;
-  top:45%;
-  left:10%;
-  width: auto;
-  height: auto;
+  position: relative;
+  padding-bottom: 5%;
   justify-content: center;
+  align-items: center;
   border-radius: 2px;
-  background: inherit;
-  border:4px solid rgba(255, 255, 255, .4);
   z-index: 2;
+}
+.popup2 .col-sm{
+  display: flex;
+  position:relative;
+  width: 100%;
+  height: auto;
+  background: ;
+  border-radius: 2px;
+  z-index: 2;
+}
+.form-group4{
+  margin:8% 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width:100%;
 
 }
 
@@ -254,11 +277,13 @@ nav {
   background: #fff;
   border-radius: 2px;
   z-index: 2;
+
 }
 .popup2 .col-sm-4:before{} 
 
 .popup2 .form-group{
   margin:10%;
+  width:;
   display: flex;
   position: relative;
   justify-content: center;
@@ -271,7 +296,7 @@ nav {
 }
 .popup2 .form-control{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4vw;
   color:#080808;
   width:100%;
   background:none;
@@ -279,7 +304,7 @@ nav {
   line-height:2;
   text-decoration:none;
   border:none;
-  border-bottom:3px solid #3C435F;
+  border-bottom:2px solid #3C435F;
   outline:none;
 
 }
@@ -291,10 +316,9 @@ nav {
 
 
 .buttonn:hover{
-	background-color: #222320;
-}
-.buttonn a:hover{
-  color: #fff;
+	background-color: #FFE831;
+	transition: .3s ease-in-out;
+
 }
 .buttonn {
 	display: flex;
@@ -302,16 +326,15 @@ nav {
 	position:relative;
 	height: 25px;
 	margin-top:2%;
+	margin-left:6%;
 	padding: 3px 5px;
 	background: rgba(252, 253, 253, 1);
-	border-radius:15px;
+	border-radius:4px;
 }
 .buttonn a{
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
-	font-weight: bold;
-	text-transform: uppercase;
-	color:black;
+	color:#394146;
 	font-size: 1.4vw;
 	padding: 5px 10px;
 }
@@ -426,9 +449,9 @@ nav {
 	position: relative;
 	display: block;
 	color:#fff;
-	font-weight: 500;
+	font-weight: 700;
 	text-decoration: none;
-	font-size: 1.3vw;
+	font-size: 1.6vw;
 	padding: 0 35px;
 	z-index: 2;
 }
@@ -478,20 +501,17 @@ nav {
 
 .project{
 	position: relative;
-	top:160px;
+	margin:3% 0;
 	display: flex;
 	box-sizing: border-box;
 	justify-content: center;
-
-
-	
 }
 .project h2{
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	color:#404951;
 	border:1px solid silver;
-	text-transform: uppercase;
+	font-size: 2vw;
 	padding: 10px ;
 	background: #FFE831;
 	border-radius: 2px;
@@ -509,72 +529,34 @@ nav {
 .gallery{
 	padding-bottom: 2%;
 	display: flex;
+	flex-wrap: wrap;
 	position: relative;
-	top:200px;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 100%;
 }
-.gblock1{
-	margin:0 1%;
+.gblock{
+	margin: 1%;
 	display: flex;
 	position: relative;
 	box-shadow:1px 2px 10px -2px #45454a;
 	height: 20%;
 	width: 30%;
 	border-radius: 2px;
-	border:3px solid #45454a;
 }
-.gblock2{
-	margin:0 1%;
-	display: flex;
-	position: relative;
-	box-shadow:1px 2px 10px -2px #45454a;
-	height: 20%;
-	width: 30%;
-	border-radius: 2px;
-	border:3px solid #45454a;
-}
-.gblock3{
-	margin:0 1%;
-	display: flex;
-	position: relative;
-	box-shadow:1px 2px 10px -2px #45454a;
-	height: 20%;
-	width: 30%;;
-	border-radius: 2px;
-	border:3px solid #45454a;
-}
-.gblock1 img {
+.gblock img {
 	display: block;
 	width: 100%;
 	height: 100%;
 	border-radius: 2px;
 }
-.gblock2 img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	border-radius: 2px;
-}
-.gblock3 img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	border-radius: 2px;
-}
-.gblock1 span{
+.gblock span{
 	padding: 0;
 	display: none;
 }
-.gblock2 span{
-	padding: 0;
-	display: none;
-}
-.gblock3 span{
-	padding: 0;
-	display: none;
+.gblock:hover{
+	transition: all 0.5s ease;
+	transform: scale(1.02);
 }
 .descr a{
 	position: absolute;
@@ -585,7 +567,7 @@ nav {
 	padding-top: 50%;
 }
 .title p{
-	font-family: 'Pacifico';
+	font-family: 'Open Sans', sans-serif;
 	text-shadow:1px 1px 2px black, 0 0 1em #404951;
 }
 .title{
@@ -593,7 +575,7 @@ nav {
 	bottom: 0;
 	width: 100%;
 	font-family: 'Lora', serif;
-	font-size: 1.7em;
+	font-size: 1.3em;
 	color: #F5F5FC;	
 }
 
@@ -602,18 +584,29 @@ nav {
 	transition: all 0.4s ease;
 	opacity: 1;
 }
-.gblock1:hover{
-	transition: all 0.5s ease;
-	
+@media (max-width: 550px){
+	.gblock{
+		height: 30%;
+		width: 80%;
+		margin:3% 0;
+	}
+	.project{
+		margin:20% 3% 3% 3%;
+	}
+	.gallery{
+
+	}
+	.project h2{
+		font-size: 5vw;
+	}
+	.descr a{
+		opacity: 1;
+	}
+	.title{
+		background-color: rgba(0, 0, 0, 0.3);
+	}
 }
-.gblock2:hover{
-	transition: all 0.5s ease;
-	
-}
-.gblock3:hover{
-	transition: all 0.5s ease;
-	
-}
+
 
 
 
@@ -625,12 +618,13 @@ nav {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	font-size:1.1em;
+	font-size:1.2vw;
 
 }
 .phonefooter a{
 	text-decoration: none;
 	color:#ddd;
+	font-size: 1.4vw;
 
 }
 .phonefooter{
@@ -641,7 +635,7 @@ nav {
 	left:80%;
 	text-align: center;
 	padding: 1%;
-	line-height: 2;
+	line-height: 1.8;
 
 }
 .phonefooter p{
