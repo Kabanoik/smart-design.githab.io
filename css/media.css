@@ -40,10 +40,10 @@
 	}
 
 	.ggoo{
-		width:90%;
+		
 	}
 	.owl-carousel img{
-		height: 26vh;
+	
 	}
 }
 
@@ -86,10 +86,10 @@
 		font-size: 2vw;
 	}
 	.bluewrap{
-		max-height: 30vh;
+		max-height: 35vh;
 	}
 	.visualwrap{
-		max-height: 30vh;
+		max-height: 35vh;
 	} 
 	.content4{
 		height:70vh ;
@@ -115,7 +115,7 @@
 		
 	}
 	.owl-carousel img{
-		min-height: 20vh;
+	
 	}
 	.ggoo{
 		top:0;
@@ -124,7 +124,7 @@
 }
 @media screen and (max-width: 550px){
 	.swiper-slide img{
-
+		object-fit: cover;
 	}
 	.swiper-container{
 
@@ -145,8 +145,8 @@
 		font-size: 7vw;
 		background-color: #FFE831;
 		padding: 1% 2%;
-		margin-top: 1%;
-		margin-right: 1%;
+		margin-top: 2%;
+		margin-right: 2%;
 		border-radius: 3px;
 	
 	}
@@ -154,11 +154,11 @@
 		display: none;
 	}
 	.pushy-content{
-	display: block;
+		display: block;
 	}
 
 	.menu-btn{
-	display: block;
+		display: block;
 	}
 	.logoandAll{
 		display: none;
@@ -426,7 +426,7 @@
 		font-size: 3vw;
 	}
 	.footerRights{
-		font-size: 2vw;
+		font-size: 2.5vw;
 	}
 
 
@@ -437,3 +437,26 @@
 			display: none;
 		}
 	}
+
+@media (min-height: 750px){
+	.col-sm-4{
+		
+	}
+	.ggoo{
+		top:20%;
+		margin-top:10%;
+	}	
+	.owl-stage img{
+		height: 25vh;
+	}
+}
+@media (min-width: 1900px){
+	.col-sm-4{
+		height: 500px;
+		max-height: 500px
+	}
+	.ggoo{
+		top:1%;
+		margin-top:1%;
+	}
+}
